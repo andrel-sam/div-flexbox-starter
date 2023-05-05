@@ -102,10 +102,30 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Poppins', sans-serif;
   padding: 2em;
   font-size: 1.25em;
+  font-weight: 300;
   height: 100%;
+}
+
+header, main {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.5em;
+}
+
+header {
+    font-size: 4em;
+    font-family: 'Vina Sans', sans-serif;
+}
+
+main {
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
 }
 
 .wrapper {
@@ -113,13 +133,15 @@ body {
   font-weight: 400;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
-.div-1, .div-2, .div-3 {
+.flex-items {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.3em;
+  font-size: 1.2em;
   height: 300px;
   display: flex;
   width: 30%;
@@ -128,7 +150,7 @@ body {
   padding: 0 20px;
 }
 
-.div-2 {
+#div-2 {
     border-left: 1px dotted white;
     border-right: 1px dotted white;
 }
